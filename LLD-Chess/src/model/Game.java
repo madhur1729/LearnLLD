@@ -6,8 +6,8 @@ public class Game {
     Player player2;
     boolean turn;
 
-    public Game(boolean turn, Player player2, Player player1, int size) {
-        this.turn = turn;
+    public Game(Player player2, Player player1, int size) {
+        this.turn = false;
         this.player2 = player2;
         this.player1 = player1;
         this.board = new Board(size);
